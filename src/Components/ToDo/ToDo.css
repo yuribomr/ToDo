@@ -1,0 +1,21 @@
+.listaTarefas{
+    display: flex;
+    justify-content: center;
+}
+
+.tarefas{
+    display: flex;
+    width: 300px;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tarefas li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.tarefas p{
+    padding: 0 10px;
+    cursor: pointer;
+}
